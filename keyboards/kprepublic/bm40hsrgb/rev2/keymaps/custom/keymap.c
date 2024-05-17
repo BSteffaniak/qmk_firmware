@@ -79,9 +79,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         //
         ____, KC_INSERT, ____, KC_MS_WH_UP, ____, KC_PAGE_UP, KC_MS_WH_UP, KC_MS_BTN1, KC_MS_UP, KC_MS_BTN2, KC_NO, KC_BSLS,
         //
-        ____, ____, KC_MS_WH_LEFT, KC_MS_WH_DOWN, KC_MS_WH_RIGHT, KC_PGDN, KC_MS_WH_DOWN, KC_MS_LEFT, KC_MS_DOWN, KC_MS_RIGHT, KC_UP, ____,
+        ____, ____, KC_MS_WH_LEFT, KC_MS_WH_DOWN, KC_MS_WH_RIGHT, KC_PGDN, KC_MS_WH_DOWN, KC_MS_LEFT, KC_MS_DOWN, KC_MS_RIGHT, ____, ____,
         //
-        ____, ____, ____, ____, ____, ____, /*_*/ ____, KC_MS_BTN1, KC_LEFT, KC_DOWN, ____),
+        ____, ____, KC_ACL0, ____, ____, ____, /*_*/ ____, ____, ____, KC_ACL0, ____),
 
     [_ADJUST] = LAYOUT_ortho_4x12_1x2uC(
         //
